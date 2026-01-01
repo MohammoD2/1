@@ -1,0 +1,19 @@
+fastapi
+uvicorn[standard]
+sounddevice
+numpy
+scipy
+pyttsx3
+requests
+python-dotenv
+pydantic
+spacy
+scikit-learn
+joblib
+transformers
+torch
+faster-whisper   # optional; or replace with whisper/whisperx
+vosk            # optional (use one ASR backend or the other)
+python-multipart
+pinecone-client
+sentence-transformers
