@@ -11,7 +11,7 @@ requests
 pinecone-client
 
 # Embeddings
-sentence-transformers
+# sentence-transformers
 
 # Note: The following are automatically installed as dependencies:
 # - torch, transformers, numpy, scipy (dependencies of sentence-transformers)
