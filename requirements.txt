@@ -1,19 +1,18 @@
+# Core FastAPI dependencies
 fastapi
 uvicorn[standard]
-sounddevice
-numpy
-scipy
-pyttsx3
-requests
-python-dotenv
 pydantic
-spacy
-scikit-learn
-joblib
-transformers
-torch
-faster-whisper   # optional; or replace with whisper/whisperx
-vosk            # optional (use one ASR backend or the other)
-python-multipart
+python-dotenv
+
+# HTTP requests
+requests
+
+# Vector database
 pinecone-client
+
+# Embeddings
 sentence-transformers
+
+# Note: The following are automatically installed as dependencies:
+# - torch, transformers, numpy, scipy (dependencies of sentence-transformers)
+# - python-multipart (optional, only needed for file uploads)
